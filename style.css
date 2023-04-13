@@ -1,4 +1,50 @@
-header{
-    background-color: red;
+*{
+    padding: 0;
+    margin: 0;
+}
+/* SEÇÃO CABECALHO*/
+.cabecalho{
+    background-color: rgb(207, 24, 24);
+    color: rgb(245, 245, 12);
+    font-size: 30px;
+    font-family: 'Chonburi', cursive;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho-titulo{
     color: white;
+    text-decoration: underline;
+    margin-top: 20px;
+    
+    
+}
+
+.cabecalho-itens{
+    display: inline-block;
+    padding: 20px 20px;
+
+}
+
+/* SEÇÃO TURMA*/
+
+.turma{
+    background-image: linear-gradient(rgb(207, 24, 24),rgba(207, 24, 24, 0.315));
+    font-family: 'Edu QLD Beginner', cursive;
+    
+}
+
+.turma-caixa-textos{
+
+}
+.turma-titulo{
+    padding: 100px 50px;
+}
+
+.turma-imagem{
+    width: 20%;
+}
+
+.turma-paragrafo{
+    padding: 5px 50px;
 }
